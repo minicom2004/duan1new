@@ -1,0 +1,192 @@
+.main {
+    display: flex;
+}
+
+.dasboard {
+    width: 20%;
+    min-height: 100vh;
+    background-color: #293d55;
+    color: #fff;
+}
+
+.account {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 18px 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.account_avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: relative;
+    margin-right: 8px;
+}
+
+.account_avatar-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.account_name {
+    font-size: 1.7rem;
+}
+
+.account-log-out_icon {
+    display: block;
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.manage-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.manage-list_link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    text-transform: capitalize;
+
+}
+
+.manage-list_link:hover {
+    background-color: #fff;
+    color: #293d55;
+}
+
+.manage-list_link--active {
+    background-color: #fff;
+    color: #293d55;
+}
+
+.manage-list_link + .manage-list_link {
+    margin-top: 2px;
+}
+
+.manage-list_link:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    border-top: 1px solid #fff;
+}
+
+.body {
+    width: 80%;
+    min-height: 100vh;
+    padding: 32px 38px 56px;
+    margin: 0;
+}
+
+.body_title {
+    margin-top: 32px;
+    margin-bottom: 28px;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.table tr th {
+    text-transform: capitalize;
+}
+
+.table tr th,
+.table tr td {
+    text-align: center;
+}
+
+.table-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.btn-add,
+.btn-change,
+.btn-delete {
+    border: none;
+    display: inline-block;
+    padding: 4px 8px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    max-height: min-content;
+}
+
+.btn-add {
+    background-color: var(--bs-success);  
+}
+
+.btn-change {
+    background-color: var(--bs-warning);
+    font-weight: 600;
+}
+
+.btn-delete {
+    background-color: var(--bs-danger);  
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+.form-features {
+}
+
+.form-features_item + .form-features_item {
+    margin-top: 10px;
+}
+
+.form-features_item label {
+    display: block;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+}
+
+.form-features_item input {
+    font-size: 1.4rem;
+    padding: 2px 4px;
+    width: 30%;
+}
+
+.form-features_item input:read-only:not([type="file"]) {
+    background-color: var(--primary-color);
+    border: 1px solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    outline: none;
+    cursor: default;
+    user-select: none;
+}
+
+
+.form-features_item textarea {
+    font-size: 1.4rem;
+    padding: 2px 4px;
+    width: 50%;
+}
+
+.form-features_error {
+    color: red;
+    font-size: 1.3rem;
+    height: 20px;
+}
+
+

@@ -1,0 +1,33 @@
+.change-password-wrap {
+    margin-top: 12px;
+}
+
+.change-password + .change-password {
+    margin-top: 8px;
+}
+
+.change-password_heading {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.change-password_input {
+    padding: 3px 6px;
+    font-size: 1.4rem;
+    width: 20%;
+}
+
+.change-password_error {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 4px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.btn-submit {
+    margin-top: 26px;
+    padding: 4px 12px;
+    font-size: 1.4rem;
+}

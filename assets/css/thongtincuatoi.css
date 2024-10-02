@@ -1,0 +1,57 @@
+.my-info {
+    display: flex;
+    margin-top: 12px;
+}
+
+.my-info_left {
+    flex: 1;
+}
+
+.my-info_right {
+    flex: 1;
+}
+
+.my-info_info + .my-info_info {
+    margin-top: 8px;
+}
+
+.my-info_info-heading {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.my-info_info-input {
+    padding: 3px 6px;
+    font-size: 1.4rem;
+    width: 50%;
+}
+
+.my-info_error {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 4px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.my-info_info-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1.5px solid #ccc;
+    padding: 8px;
+}
+
+.my-info_info-file {
+    display: block;
+    margin-top: 12px;
+    padding: 8px 0;
+    font-size: 1.2rem;
+}
+
+.btn-submit {
+    margin-top: 26px;
+    padding: 4px 12px;
+    font-size: 1.4rem;
+}

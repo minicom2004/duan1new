@@ -1,0 +1,106 @@
+.main {
+    display: flex;
+    min-height: 100vh;
+}
+
+.form-account {
+    min-width: 500px;
+    min-height: 300px;
+    text-align: center;
+    margin: auto;
+    background-color: var(--primary-color);
+    padding-bottom: 24px;
+}
+
+.form-account_heading {
+    background-color: var(--active-color);
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-size: 3rem;
+    position: relative;
+}
+
+.form-account_home {
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.2rem;
+    display: block;
+    color: #4e4e4e;
+}
+
+.form-account_body {
+    margin-top: 40px;
+    padding: 0 16px;
+}
+
+.form-account_content {
+}
+
+.form-account_content + .form-account_content {
+    margin-top: 8px;
+}
+
+.form-account_input {
+    display: flex;
+    justify-content: left;
+}
+
+.form-account_input label {
+    width: 30%;
+    text-align: left;
+}
+
+.form-account_input input {
+    flex: 1;
+    padding: 2px 4px;
+    font-size: 1.4rem;
+}
+
+.form-account_error {
+    display: flex;
+    color: red;
+    font-size: 1.3rem;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.form-account_error-emty {
+    width: 30%;
+}
+
+.form-account_error-text {
+    flex: 1;
+    text-align: left;
+}
+
+
+.btn-submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 6px 0;
+    border: 1px solid #ccc;
+    background-color: var(--primary-color);
+}
+
+.btn-submit:hover {
+    background-color: var(--active-color);
+}
+
+.form-account_features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.form-account_feature {
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.form-account_feature:hover {
+    opacity: 0.8;
+}
+
+

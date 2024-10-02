@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    min-height: 100vh;
+}
+
+.heading {
+    font-size: 1.8rem;
+}
+
+.form-info {
+    width: 700px;
+    min-height: 500px;
+    margin: auto;
+}
+
+.form-info_heading {
+    margin: 0;
+}
